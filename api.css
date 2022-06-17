@@ -1,0 +1,53 @@
+.table-container {
+    width: 1160px;
+    margin-left: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    justify-content: center;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 545px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.back-btn {
+    display: none;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 1439.98px) {
+    .back-btn {
+        display: none;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .logo {
+        display: none;
+    }
+
+    .back-btn {
+        display: inline;
+        position: relative;
+        top: 20px;
+    }
+}

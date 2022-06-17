@@ -1,0 +1,527 @@
+/* laptops */
+@media screen and (max-width: 1439.98px) {
+    body {
+        width: 768px;
+    }
+
+    .main-container {
+        width: 768px;
+        background-color: #F6F8F9;
+    }
+
+    .m-n-r-d {
+        background-color: white;
+    }
+
+    .navbar {
+        width: 768px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .right-text {
+        display: flex;
+        gap: 80px;
+    }
+
+    .world-news {
+        width: 768px;
+    }
+
+    .article-text {
+        width: 284px;
+    }
+
+    .more-news {
+        border-bottom: none;
+    }
+
+    .w-n-line {
+        width: 608px;
+        height: 1px;
+        background-color: gray;
+    }
+
+    .m-n-s {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wordl-news-containter {
+        width: 768px;
+        display: inline;
+    }
+
+    #t-c-l-ch {
+        display: none;
+
+    }
+
+    .trending-container {
+        width: 608px;
+        margin: auto;
+    }
+
+    #f-f {
+        width: 284px;
+    }
+
+    #s-f {
+        width: 284px;
+    }
+
+    .first-place {
+        width: 284px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .trending-title {
+        width: 608px;
+    }
+
+    .place-title {
+        line-height: 40px;
+    }
+
+    .happening-container {
+        display: inline;
+        width: 608px;
+    }
+
+    .left-side {
+        width: 608px;
+        margin: auto;
+    }
+
+    .city {
+        width: 608px;
+    }
+
+    .travel-img {
+        width: 608px;
+    }
+
+    .elephant {
+        width: 284px;
+        margin: auto;
+    }
+
+
+
+    .road {
+        display: none;
+    }
+
+    .right-side {
+        width: 608px;
+    }
+
+    .r-s-d {
+        display: flex;
+        gap: 40px;
+        margin-left: 80px;
+    }
+
+    #a-img {
+        width: 608px;
+        margin: auto;
+
+    }
+
+    .footer-logo {
+        position: relative;
+        top: 50px;
+        left: 80px;
+    }
+
+    .home-footer {
+        position: relative;
+        left: 400px;
+    }
+
+    .about {
+        position: relative;
+        left: 490px;
+        bottom: 130px;
+    }
+
+    .testi {
+        position: relative;
+        left: 570px;
+        bottom: 260px;
+    }
+
+
+    .items {
+        display: inline;
+    }
+
+    .footer {
+        height: 316px;
+    }
+
+    .social-media {
+        height: 20px;
+        position: relative;
+        bottom: 300px;
+        left: 470px;
+    }
+
+    .email-div {
+        position: relative;
+        left: 70px;
+        bottom: 250px;
+    }
+
+    .input {
+        width: 284px;
+        border: 1px solid #CBD0D3;
+    }
+
+    .story-title {
+        width: 608px;
+        margin: auto;
+    }
+
+    .middle-container {
+        display: inline;
+        height: 800px;
+    }
+
+
+
+    .right {
+        height: 400px;
+        margin: auto;
+    }
+
+    .profile-comment {
+        display: inline;
+    }
+
+    .pages {
+        display: flex;
+        width: 233px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .table-container {
+        width: 608px;
+    }
+
+}
+
+@media screen and (max-width: 767.98px) {
+    body {
+        width: 375px;
+    }
+
+    .p-c {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container {
+        width: 375px;
+        background-color: #F6F8F9;
+    }
+
+    .navbar {
+        width: 375px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .discovery {
+        display: none;
+    }
+
+    .photos {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+        height: 20px;
+        border: none;
+        margin-top: 15px;
+    }
+
+    .brg-menu-div {
+        display: flex;
+        width: 375px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-bottom: 35px;
+    }
+
+
+
+    .world-news {
+        width: 375px;
+        height: 388px;
+        background-size: cover;
+        filter: brightness(1%);
+        filter: contrast(100%);
+    }
+
+    .world-news-text {
+        width: 327px;
+        line-height: 1.5em;
+    }
+
+    .m-n-s {
+        width: 327px;
+        margin: auto;
+    }
+
+    .w-n-line {
+        width: 327px;
+        height: 1px;
+        background-color: A6ADB4;
+        margin: auto;
+    }
+
+    .right-text {
+        display: inline;
+    }
+
+    .r-t-l {
+        width: 327px;
+        margin: auto;
+    }
+
+    .r-t-r {
+        width: 327px;
+        margin: auto;
+    }
+
+    .trending-title {
+        width: 327px;
+    }
+
+    .trending-container {
+        display: inline;
+    }
+
+    .first-place {
+        width: 327px;
+        margin: auto;
+    }
+
+    #f-f {
+        width: 327px;
+    }
+
+    #s-f {
+        width: 327px;
+        margin: auto;
+    }
+
+    .left-side {
+        width: 327px;
+    }
+
+    .city-text {
+        margin-top: 50px;
+    }
+
+    .city {
+        width: 327px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        margin: auto;
+    }
+
+    .travel-img {
+        width: 327px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        margin: auto;
+    }
+
+    .right-side {
+        width: 327px;
+    }
+
+    .r-s-d {
+        display: inline;
+    }
+
+    .road {
+        display: inline;
+    }
+
+    #a-img {
+        width: 355px;
+        margin-left: 25px;
+    }
+
+    .elephant {
+        width: 327px;
+        margin: auto;
+    }
+
+    #third-small-title {
+        margin-left: 20px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .table-container {
+        width: 375px;
+        margin: auto;
+    }
+
+    .flex-container {
+        width: 327px;
+        margin: auto;
+    }
+
+    .flex-container>div {
+        width: 327px;
+        height: 500px;
+    }
+
+    .brg-menu-div.active .brg-menu {
+        display: flex;
+    }
+
+    .brg-menu {
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        z-index: 100;
+        border: 2px solid gray;
+        width: 375px;
+        height: 812px;
+        background-color: white;
+        text-decoration: none;
+        list-style: none;
+
+    }
+
+    .h-r-d {
+        margin-top: 40px;
+        margin-left: 40px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .d-r-d {
+        margin-top: 40px;
+        margin-left: 40px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .p-r-d {
+        margin-top: 40px;
+        margin-left: 40px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .c-r-d {
+        margin-top: 40px;
+        margin-left: 40px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .pr-r-d {
+        margin-top: 40px;
+        margin-left: 40px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .home-brg {
+        text-decoration: none;
+        color: #343638;
+        font-weight: bold;
+    }
+
+    .br-footer {
+        display: flex;
+        width: 375px;
+        position: relative;
+        right: 3px;
+        top: 18px;
+        border: 2px solid gray;
+        justify-content: center;
+        height: 320px;
+        gap: 50px;
+        margin-top: 140px;
+        background-color: #A6ADB4;
+    }
+
+    .l-br-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .r-br-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .br-ft {
+        text-decoration: none;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .br-l-t {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #A6ADB4;
+    }
+
+    .g-d-i {
+        color: #A6ADB4;
+
+    }
+
+    .social-media-br {
+        position: relative;
+        bottom: 50px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 327px) {
+    body {
+        width: 100%;
+    }
+
+    .main-container {
+        width: 100%;
+        background-color: #F6F8F9;
+    }
+}

@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 1440px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.navbar {
+    max-width: 1440px;
+    max-height: 50px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    /* only column intially */
+    grid-auto-flow: dense;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    grid-column: -3;
+    color: #FA6980;
+    font-size: 13px;
+    font-family: Helvetica;
+    position: relative;
+    left: 20px;
+    top: 15px;
+
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    grid-column: 1;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.brg-menu {
+    display: none;
+}
+
+.home {
+    color: #343638;
+    font-size: 11px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.discovery {
+    color: #343638;
+    font-size: 11px;
+    font-family: Helvetica;
+    font-weight: bold;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.photos {
+    color: #343638;
+    font-size: 11px;
+    font-family: Helvetica;
+    font-weight: bold;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.contact {
+    color: #343638;
+    font-size: 11px;
+    font-family: Helvetica;
+    font-weight: bold;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.wordl-news-containter {
+    max-width: 1440px;
+    height: 600px;
+    display: flex;
+}
+
+.world-news {
+    width: 840px;
+    height: 600px;
+    background-image: url("/IMAGES/world-news.svg");
+    display: flex;
+}
+
+.world-news-text {
+    width: 600px;
+    height: 247px;
+    margin: auto;
+}
+
+.world-title {
+    font-size: 24px;
+    font-family: Helvetica;
+    color: #fff;
+    border-bottom: 3px solid white;
+}
+
+.amazing-title {
+    font-size: 24px;
+    font-family: Helvetica;
+    color: #fff;
+}
+
+.amazing-text {
+    font-size: 16px;
+    font-family: Helvetica;
+    color: #fff;
+}
+
+.learn-more {
+    width: 134px;
+    height: 40px;
+    background-color: #FA6980;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn-more-link {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.learn-more:hover {
+    background-color: #b2001e;
+}
+
+.world-news-right {
+    max-width: 600px;
+    max-height: 600px;
+    display: grid;
+    align-items: center;
+    margin: auto;
+}
+
+.m-n-r-d {
+    margin: auto;
+}
+
+.m-n-s {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-text {
+    max-width: 380px;
+    max-height: 420px;
+}
+
+.more-news {
+    font-size: 24px;
+    font-family: Helvetica;
+}
+
+.more-line {
+    width: 380px;
+    height: 1px;
+    background-color: #A6ADB4;
+}
+
+.travel {
+    font-size: 16px;
+    font-family: Helvetica;
+    color: #FA6980;
+}
+
+.article-title {
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.article-text {
+    color: #A6ADB4;
+    font-size: 16px;
+    font-family: Acumin Pro;
+}
+
+.home-item {
+    width: 79px;
+}
+
+.time {
+    color: #A6ADB4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.trending-title {
+    max-width: 1160px;
+    max-height: 350px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.swich {
+    display: flex;
+    gap: 40px;
+    height: 10px;
+}
+
+.trending {
+    font-size: 24px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.place-title {
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.trending-container {
+    max-width: 1160px;
+    max-height: 350px;
+    display: flex;
+    margin: auto;
+    gap: 40px;
+}
+
+.happening-container {
+    max-width: 1160px;
+    max-height: 900px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.left-side {
+    max-width: 760px;
+    max-height: 900px;
+}
+
+.city {
+    width: 760px;
+    height: 430px;
+    background-image: url(/IMAGES/Image.svg);
+
+}
+
+.city-title {
+    font-size: 16px;
+    font-family: Helvetica;
+    color: white;
+    margin-left: 50px;
+
+}
+
+.city-text {
+    font-size: 24px;
+    font-family: Helvetica;
+    color: white;
+    margin-left: 50px;
+    margin-top: 220px;
+}
+
+.lorem-text {
+    font-size: 16px;
+    font-family: Helvetica;
+    color: white;
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+
+.time-happening {
+    color: #A6ADB4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.travel-img {
+    width: 760px;
+    height: 430px;
+    background-image: url(/IMAGES/Image1.svg);
+}
+
+.right-side {
+    max-width: 360px;
+    max-height: 900px;
+}
+
+.elephant {
+    width: 360px;
+    height: 210px;
+}
+
+.small-title {
+    font-size: 16px;
+    font-family: Helvetica;
+    margin-top: 10px;
+}
+
+.time-elephant {
+    color: #A6ADB4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.bird {
+    margin-top: 100px;
+}
+
+.road {
+    margin-top: 40px;
+}
+
+.footer {
+    max-width: 1440px;
+    height: 200px;
+    background: #A6ADB4;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    font-size: 13px;
+    font-family: Helvetica;
+    color: white;
+    width: 50px;
+}
+
+.home-item {
+    font-size: 13px;
+    font-family: Helvetica;
+    color: #CBD0D3;
+    margin-top: 10px;
+}
+
+.home-footer {
+    margin-top: 40px;
+    width: 79px;
+}
+
+.about {
+    margin-top: 40px;
+    width: 79px;
+}
+
+.testi {
+    margin-top: 40px;
+    width: 79px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 260px;
+    height: 35px;
+    background-color: #A6ADB4;
+}
+
+.email-div {
+    margin-top: 20px;
+    width: 250px;
+}
+
+.email-text {
+    margin-top: 20px;
+    color: #CBD0D3;
+    font-size: 11px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+    width: 160px;
+}
+
+.send-img {
+    position: relative;
+    left: 230px;
+    bottom: 25px;
+}
+
+.pages {
+    width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    display: none;
+}
+
+.first:first-child {
+    color: #202124;
+    border-bottom: 2px solid #FA6980;
+
+}
+
+.p-c {
+    display: flex;
+}
+
+.first {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A6ADB4;
+}
